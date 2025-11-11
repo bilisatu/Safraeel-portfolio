@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lnag="en">
+    <head>
+        <title>SAFRAEL PORTFOLIO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <div class="nav-container">
+                <h2 class="logo">Safrael</h2>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="themeToggle">🌙</button>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Safrael</span></h1>
+                <p>Frontend Developer & JavaScript Warrior</p>
+                <button id="ctaButton">See My Work</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I transforming coffee into code and ideas into interactive experiences. Currently mastering JavaScript through brutal, no-bullshit building.</p>
+
+                <div class="skills">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">DOM Manipulation</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Color Flipper</h3>
+                    <p>Random color generator with real-time display</p>
+                    <button class="project-btn">View Project</button>
+                </div>
+
+                <div class="project-card">
+                    <h3>Todo List App</h3>
+                    <p>Full CRUD functional with filtering</p>
+                    <button class="project-btn">View Project</button>
+                </div>
+
+                <div class="project-card">
+                    <h3>User Profile Generator</h3>
+                    <p>Dynamic form processing and display</p>
+                    <button class="project-btn">View Project</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <form id="contactForm">
+                <input type="text" id="nameInput" placeholder="Your Name" required>
+                <input type="email" id="emailInput" placeholder="Your Email" required>
+                <textarea id="messageInput" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 SAFRAEEL. All Right Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
