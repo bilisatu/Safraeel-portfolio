@@ -1,6 +1,6 @@
 # SAFRAEL-PORTFOLIO
 
-A clean, responsive personal portfolio built with semantic HTML, modern CSS, and minimal JavaScript. Suitable for quick customization and deployment on any static host.
+Static personal portfolio template using HTML, CSS, and vanilla JavaScript — fast to customize and deploy on any static host.
 
 ## Features
 - Responsive layout for mobile and desktop
